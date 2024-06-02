@@ -11,13 +11,11 @@ public class Empresa {
     
     private String contra;
     private String nombre;
-    private String correo;
     private String producto;
 
-    public Empresa(String contra, String nombre, String correo,String producto) {
+    public Empresa(String contra, String nombre,String producto) {
         this.contra = contra;
         this.nombre = nombre;
-        this.correo = correo;
         this.producto = producto;
     }
 
@@ -37,14 +35,6 @@ public class Empresa {
         this.nombre = nombre;
     }
 
-    public String getCorreo() {
-        return correo;
-    }
-
-    public void setCorreo(String correo) {
-        this.correo = correo;
-    }
-
     public String getProducto() {
         return producto;
     }
@@ -55,7 +45,7 @@ public class Empresa {
 
     @Override
     public String toString() {
-        return "Empresa\nContraseña: " + contra + "\nNombre: " + nombre + "\nCorreo: " + correo ;
+        return "Empresa\nContraseña: " + contra + "\nNombre: " + nombre;
     }
     
     
