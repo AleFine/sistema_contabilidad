@@ -12,11 +12,13 @@ public class Empresa {
     private String contra;
     private String nombre;
     private String correo;
+    private String producto;
 
-    public Empresa(String contra, String nombre, String correo) {
+    public Empresa(String contra, String nombre, String correo,String producto) {
         this.contra = contra;
         this.nombre = nombre;
         this.correo = correo;
+        this.producto = producto;
     }
 
     public String getContra() {
@@ -41,6 +43,14 @@ public class Empresa {
 
     public void setCorreo(String correo) {
         this.correo = correo;
+    }
+
+    public String getProducto() {
+        return producto;
+    }
+
+    public void setProducto(String producto) {
+        this.producto = producto;
     }
 
     @Override
