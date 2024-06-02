@@ -8,9 +8,11 @@ package entidades;
  * Encontrá más código en mi repo de GitHub: https://github.com/CharlyCimino
  */
 public class Persona {
+    
     private int name;
     private int lastname;
-       public Persona(int name, int lastname) {
+    
+    public Persona(int name, int lastname) {
         this.name = name;
         this.lastname = lastname;
     }
@@ -36,8 +38,6 @@ public class Persona {
     public void setLastname(int lastname) {
         this.lastname = lastname;
     }
-
- 
     
     
 }
