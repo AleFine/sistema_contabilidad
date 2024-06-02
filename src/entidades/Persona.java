@@ -17,11 +17,7 @@ public class Persona {
         this.lastname = lastname;
     }
 
-    @Override
-    public String toString() {
-        return "Persona{" + "name=" + name + ", lastname=" + lastname + '}';
-    }
-       
+   
 
     public int getName() {
         return name;
@@ -38,6 +34,13 @@ public class Persona {
     public void setLastname(int lastname) {
         this.lastname = lastname;
     }
+
+
+     @Override
+    public String toString() {
+        return "Persona{" + "name=" + name + ", lastname=" + lastname + '}';
+    }
+       
     
     
 }
